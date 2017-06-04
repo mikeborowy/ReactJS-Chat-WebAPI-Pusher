@@ -71,6 +71,7 @@
     <Content Include="app\components\chatScreen\elements\ChatInputForm.js" />
     <Content Include="app\components\chatScreen\elements\ChatMessageList.js" />
     <Content Include="app\components\chatScreen\ChatScreen.js" />
+    <Content Include="app\components\welcomeScreen\elements\WelcomeForm.js" />
     <Content Include="app\components\welcomeScreen\WelcomeScreen.js" />
     <Content Include="app\index.js" />
     <Content Include="app\routes.js" />

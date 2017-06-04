@@ -1,23 +1,12 @@
 ﻿import React from 'react';
+import WelcomeForm from './elements/WelcomeForm';
 
 const WelcomeScreen = ({ onSubmit }) => {
-
-    let usernameInput;
 
     return (
         <div>
             <p>Enter your Twitter name and start chatting!</p>
-            <form onSubmit={evt => {
-
-                evt.preventDefault();
-                onSubmit(usernameInput.value);
-
-            }}>
-                <input type="text" placeholder="Enter Twitter handle here" ref={node => {
-                    usernameInput = node;
-                }} />
-                <input type="submit" value="Join the chat" />
-            </form>
+            <WelcomeForm onSubmit={ onSubmit } />
         </div>
     );
 };
