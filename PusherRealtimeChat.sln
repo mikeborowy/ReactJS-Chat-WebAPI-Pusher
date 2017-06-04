@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PusherRealtimeChat.WebAPI", "PusherRealtimeChat.WebAPI\PusherRealtimeChat.WebAPI.csproj", "{BFD6BABB-708D-4002-A6FF-B9A3C5EAD2A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PusherRealtimeChat.WebAPI", "PusherRealtimeChat.WebAPI\PusherRealtimeChat.WebAPI.csproj", "{F5A87E3F-8F4F-41C0-868C-225E3519BDDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PusherRealtimeChat.Client", "PusherRealtimeChat.Client\PusherRealtimeChat.Client.csproj", "{8A0DD0FC-9064-4923-87A8-15E080BF67F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BFD6BABB-708D-4002-A6FF-B9A3C5EAD2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFD6BABB-708D-4002-A6FF-B9A3C5EAD2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFD6BABB-708D-4002-A6FF-B9A3C5EAD2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFD6BABB-708D-4002-A6FF-B9A3C5EAD2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A87E3F-8F4F-41C0-868C-225E3519BDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A87E3F-8F4F-41C0-868C-225E3519BDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A87E3F-8F4F-41C0-868C-225E3519BDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A87E3F-8F4F-41C0-868C-225E3519BDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0DD0FC-9064-4923-87A8-15E080BF67F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0DD0FC-9064-4923-87A8-15E080BF67F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0DD0FC-9064-4923-87A8-15E080BF67F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0DD0FC-9064-4923-87A8-15E080BF67F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PusherRealtimeChat.WebAPI")]
+[assembly: AssemblyTitle("PusherRealtimeChat.Client")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PusherRealtimeChat.WebAPI")]
+[assembly: AssemblyProduct("PusherRealtimeChat.Client")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f5a87e3f-8f4f-41c0-868c-225e3519bdde")]
+[assembly: Guid("8a0dd0fc-9064-4923-87a8-15e080bf67f4")]
 
 // Version information for an assembly consists of the following four values:
 //
